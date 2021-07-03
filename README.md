@@ -21,6 +21,14 @@ yarn add justypes
 - Dictionary
 - Falsy
 - Getter
+- JsonRpcId
+- JsonRpcParams
+- JsonRpcNotification
+- JsonRpcRequest
+- JsonRpcResponse
+- JsonRpcSuccess
+- JsonRpcError
+- JsonRpcErrorObject
 - Json
 - NonEmptyArray
 - Nullish
