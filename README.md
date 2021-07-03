@@ -1,6 +1,12 @@
 # justypes
 Dumb types for TypeScript in the real world.
 
+## The difference with [hotypes]
+
+justypes are more like adjectives or nouns.
+
+[hotypes]: https://www.npmjs.com/package/hotypes
+
 ## Install
 
 ```sh
@@ -11,6 +17,16 @@ yarn add justypes
 
 ## Types
 
-- Json
-- Nullish
+- Constructor
+- Dictionary
 - Falsy
+- Getter
+- Json
+- NonEmptyArray
+- Nullish
+- UnpackedArrayLike
+- UnpackedArray
+- UnpackedAsyncIterable
+- UnpackedIterable
+- UnpackedPromiseLike
+- UnpackedPromise
