@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/BlackGlory/justypes/compare/v0.1.2...v0.1.3) (2021-07-03)
+
+
+### Features
+
+* add a batch of types from hotypes v3 ([dc08e4b](https://github.com/BlackGlory/justypes/commit/dc08e4baa7e1a159875bb5d51101a6459a998fc7))
+
 ### [0.1.2](https://github.com/BlackGlory/justypes/compare/v0.1.1...v0.1.2) (2021-05-22)
 
 
