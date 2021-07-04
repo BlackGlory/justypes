@@ -17,6 +17,7 @@ yarn add justypes
 
 ## Types
 
+- Cons
 - Constructor
 - Dictionary
 - Falsy
