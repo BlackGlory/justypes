@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/BlackGlory/justypes/compare/v0.1.4...v0.1.5) (2021-07-04)
+
+
+### Features
+
+* add Cons ([881b87a](https://github.com/BlackGlory/justypes/commit/881b87a613b3db84ab8019ba9edb6f0aba1be004))
+
 ### [0.1.4](https://github.com/BlackGlory/justypes/compare/v0.1.3...v0.1.4) (2021-07-03)
 
 
