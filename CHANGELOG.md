@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/BlackGlory/justypes/compare/v0.1.5...v0.1.6) (2021-10-08)
+
+
+### Features
+
+* add Arrayable ([596eaed](https://github.com/BlackGlory/justypes/commit/596eaedd77d884bafa5c2b8182152c3845c50744))
+
 ### [0.1.5](https://github.com/BlackGlory/justypes/compare/v0.1.4...v0.1.5) (2021-07-04)
 
 
