@@ -1,3 +1,4 @@
+export * from './arrayable'
 export * from './cons'
 export * from './constructor'
 export * from './dictionary'

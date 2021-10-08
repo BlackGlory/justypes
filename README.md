@@ -17,6 +17,7 @@ yarn add justypes
 
 ## Types
 
+- Arrayable
 - Cons
 - Constructor
 - Dictionary
