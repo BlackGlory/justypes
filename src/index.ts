@@ -1,4 +1,5 @@
 export * from './arrayable'
+export * from './awaitable'
 export * from './cons'
 export * from './constructor'
 export * from './dictionary'
