@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/BlackGlory/justypes/compare/v1.0.0...v2.0.0) (2022-03-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove JsonRpcNotification, JsonRpcRequest,
+         JsonRpcResponse, JsonRpcSuccess, JsonRpcError,
+         JsonRpcErrorObject
+
+### Features
+
+* move JSON RPC types to json-rpc-types ([412ca9c](https://github.com/BlackGlory/justypes/commit/412ca9cc5c4a74f509412febdf52a3449ebc3bcc))
+
 ## [1.0.0](https://github.com/BlackGlory/justypes/compare/v0.1.7...v1.0.0) (2022-03-05)
 
 ### [0.1.7](https://github.com/BlackGlory/justypes/compare/v0.1.6...v0.1.7) (2022-02-24)
