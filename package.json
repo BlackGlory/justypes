@@ -1,6 +1,6 @@
 {
   "name": "justypes",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Dumb types for TypeScript in the real world",
   "keywords": [
     "types",
