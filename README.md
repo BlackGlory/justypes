@@ -30,3 +30,7 @@ yarn add justypes
 - UnpackedIterable
 - UnpackedPromiseLike
 - UnpackedPromise
+- TypedArrayConstructor
+- TypedArray
+- TypedArrayOfConstructor
+- ConstructorOfTypedArray
