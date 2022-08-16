@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/BlackGlory/justypes/compare/v2.0.1...v2.1.0) (2022-08-16)
+
+
+### Features
+
+* add TypedArrayConstructor, TypedArray, TypedArrayOfConstructor, ConstructorOfTypedArray ([915d7f9](https://github.com/BlackGlory/justypes/commit/915d7f9628c99d347e7b76053cd26e22fd769970))
+
 ### [2.0.1](https://github.com/BlackGlory/justypes/compare/v2.0.0...v2.0.1) (2022-08-01)
 
 ## [2.0.0](https://github.com/BlackGlory/justypes/compare/v1.0.0...v2.0.0) (2022-03-05)
