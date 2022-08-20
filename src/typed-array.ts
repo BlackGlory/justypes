@@ -1,24 +1,36 @@
 export type TypedArrayConstructor =
+| SignedTypedArrayConsturctor
+| UnsignedTypedArrayConstructor
+
+export type SignedTypedArrayConsturctor = 
 | Int8ArrayConstructor
-| Uint8ArrayConstructor
-| Uint8ClampedArrayConstructor
 | Int16ArrayConstructor
-| Uint16ArrayConstructor
 | Int32ArrayConstructor
-| Uint32ArrayConstructor
 | Float32ArrayConstructor
 | Float64ArrayConstructor
 
+export type UnsignedTypedArrayConstructor =
+| Uint8ArrayConstructor
+| Uint8ClampedArrayConstructor
+| Uint16ArrayConstructor
+| Uint32ArrayConstructor
+
 export type TypedArray =
+| SignedTypedArray
+| UnsignedTypedArray
+
+export type SignedTypedArray =
 | Int8Array
-| Uint8Array
-| Uint8ClampedArray
 | Int16Array
-| Uint16Array
 | Int32Array
-| Uint32Array
 | Float32Array
 | Float64Array
+
+export type UnsignedTypedArray = 
+| Uint8Array
+| Uint8ClampedArray
+| Uint16Array
+| Uint32Array
 
 export type TypedArrayOfConstructor<T extends TypedArrayConstructor> =
   T extends Int8ArrayConstructor ? Int8Array

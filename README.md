@@ -34,3 +34,7 @@ yarn add justypes
 - TypedArray
 - TypedArrayOfConstructor
 - ConstructorOfTypedArray
+- SignedTypedArrayConsturctor
+- UnsignedTypedArrayConstructor
+- SignedTypedArray
+- UnsignedTypedArray
