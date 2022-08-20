@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/BlackGlory/justypes/compare/v2.1.0...v2.2.0) (2022-08-20)
+
+
+### Features
+
+* add types ([c53e49a](https://github.com/BlackGlory/justypes/commit/c53e49a4b5317987a8c3924fdcf8d07d6b8a1b3e))
+
 ## [2.1.0](https://github.com/BlackGlory/justypes/compare/v2.0.1...v2.1.0) (2022-08-16)
 
 
