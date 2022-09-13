@@ -18,6 +18,7 @@ yarn add justypes
 - Awaitable
 - Cons
 - Constructor
+- ReturnTypeOfConstructor
 - Dictionary
 - Falsy
 - Getter
