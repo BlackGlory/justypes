@@ -32,4 +32,3 @@ yarn add justypes
 - UnsignedTypedArrayConstructor
 - TypedArrayOfConstructor
 - ConstructorOfTypedArray
-- ReturnTypeOfConstructor
