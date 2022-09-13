@@ -1,5 +1,5 @@
 import { assertType, Equals, NotEqual } from '@test/utils'
-import { Constructor, ReturnTypeOfConstructor } from '@src/constructor'
+import { Constructor } from '@src/constructor'
 
 describe('Constructor', () => {
   test('new () => T is Consturctor', () => {
@@ -16,15 +16,5 @@ describe('Constructor', () => {
 
     assertType<NotEqual<Constructor<ReturnType<typeof fn>>, () => string>>()
     assertType<NotEqual<Constructor, () => string>>()
-  })
-})
-
-describe('ReturnTypeOfConstructor', () => {
-  it('returns the return type of constructor', () => {
-    class Class {}
-
-    type Result = ReturnTypeOfConstructor<typeof Class>
-
-    assertType<Equals<Result, Class>>()
   })
 })
