@@ -38,3 +38,7 @@ yarn add justypes
 - UnsignedTypedArrayConstructor
 - SignedTypedArray
 - UnsignedTypedArray
+
+*The naming convention of `Unpacked` comes from [this official article].*
+
+[this official article]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types
