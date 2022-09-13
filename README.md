@@ -1,10 +1,10 @@
 # justypes
 Dumb types for TypeScript in the real world.
 
-## The difference with [hotypes]
-justypes are more like adjectives or nouns.
-
-[hotypes]: https://www.npmjs.com/package/hotypes
+`justypes` contains these types:
+- A new type is a collection of types.
+- A new type is a type that extracts the internal type from another type.
+- A new type is a mapping of type A to type B.
 
 ## Install
 ```sh

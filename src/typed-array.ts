@@ -2,7 +2,7 @@ export type TypedArrayConstructor =
 | SignedTypedArrayConsturctor
 | UnsignedTypedArrayConstructor
 
-export type SignedTypedArrayConsturctor = 
+export type SignedTypedArrayConsturctor =
 | Int8ArrayConstructor
 | Int16ArrayConstructor
 | Int32ArrayConstructor
@@ -26,7 +26,7 @@ export type SignedTypedArray =
 | Float32Array
 | Float64Array
 
-export type UnsignedTypedArray = 
+export type UnsignedTypedArray =
 | Uint8Array
 | Uint8ClampedArray
 | Uint16Array
