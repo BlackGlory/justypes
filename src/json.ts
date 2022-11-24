@@ -10,6 +10,6 @@ export type Json =
 /**
  * 可以生成JSON的非JSON对象
  */
-export interface Jsonable<T> {
+export interface Jsonable<T extends Json> {
   toJSON(key: string): T
 }
