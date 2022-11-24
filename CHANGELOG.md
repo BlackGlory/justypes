@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/BlackGlory/justypes/compare/v3.0.0...v3.1.0) (2022-11-24)
+
+
+### Features
+
+* add `Jsonable` ([f9d63b4](https://github.com/BlackGlory/justypes/commit/f9d63b4e4d51d1342f754c5dc3c76c80ef17e381))
+
 ## [3.0.0](https://github.com/BlackGlory/justypes/compare/v2.3.0...v3.0.0) (2022-09-13)
 
 
