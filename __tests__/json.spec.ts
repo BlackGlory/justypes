@@ -45,4 +45,10 @@ describe('Jsonable', () => {
 
     expectType<Jsonable<number>>(obj)
   })
+
+  test('object without toJSON method', () => {
+    const obj = {}
+
+    expectNotType<Jsonable<number>>(obj)
+  })
 })
