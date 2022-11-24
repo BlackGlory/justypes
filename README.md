@@ -22,6 +22,7 @@ yarn add justypes
 - Falsy
 - Getter
 - Json
+- Jsonable
 - NonEmptyArray
 - Nullish
 - TypedArray

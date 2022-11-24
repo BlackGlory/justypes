@@ -6,3 +6,10 @@ export type Json =
 | null
 | { [property: string]: Json }
 | Json[]
+
+/**
+ * 可以生成JSON的非JSON对象
+ */
+export interface Jsonable<T> {
+  toJSON(key: string): T
+}
