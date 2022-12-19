@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/BlackGlory/justypes/compare/v3.1.2...v4.0.0) (2022-12-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* - Renamed `Json` to `JSONValue`
+- Renamed `Jsonable` to `JSONSerializable`
+
+* rename ([b1f5e49](https://github.com/BlackGlory/justypes/commit/b1f5e493e82d200488157bdd771d29c567f87a46))
+
 ### [3.1.2](https://github.com/BlackGlory/justypes/compare/v3.1.1...v3.1.2) (2022-11-24)
 
 ### [3.1.1](https://github.com/BlackGlory/justypes/compare/v3.1.0...v3.1.1) (2022-11-24)
