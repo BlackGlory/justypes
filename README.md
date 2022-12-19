@@ -21,8 +21,8 @@ yarn add justypes
 - Dictionary
 - Falsy
 - Getter
-- Json
-- Jsonable
+- JSONValue
+- JSONSerializable
 - NonEmptyArray
 - Nullish
 - TypedArray

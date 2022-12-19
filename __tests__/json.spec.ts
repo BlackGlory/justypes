@@ -1,41 +1,41 @@
 import { expectType, expectNotType } from 'tsd'
-import { Json, Jsonable } from '@src/json'
+import { JSONValue, JSONSerializable } from '@src/json'
 
-describe('Json', () => {
-  test('string is Json', () => {
-    expectType<Json>('text')
+describe('JSONValue', () => {
+  test('string is JSONValue', () => {
+    expectType<JSONValue>('text')
   })
 
-  test('number is Json', () => {
-    expectType<Json>(1)
+  test('number is JSONValue', () => {
+    expectType<JSONValue>(1)
   })
 
-  test('boolean is Json', () => {
-    expectType<Json>(true)
+  test('boolean is JSONValue', () => {
+    expectType<JSONValue>(true)
   })
 
-  test('null is Json', () => {
-    expectType<Json>(null)
+  test('null is JSONValue', () => {
+    expectType<JSONValue>(null)
   })
 
-  test('object is Json', () => {
-    expectType<Json>({})
+  test('object is JSONValue', () => {
+    expectType<JSONValue>({})
   })
 
-  test('undefined isnt Json', () => {
-    expectNotType<Json>(undefined)
+  test('undefined isnt JSONValue', () => {
+    expectNotType<JSONValue>(undefined)
   })
 
-  test('Map isnt Json', () => {
-    expectNotType<Json>(new Map())
+  test('Map isnt JSONValue', () => {
+    expectNotType<JSONValue>(new Map())
   })
 
-  test('Set isnt Json', () => {
-    expectNotType<Json>(new Set())
+  test('Set isnt JSONValue', () => {
+    expectNotType<JSONValue>(new Set())
   })
 })
 
-describe('Jsonable', () => {
+describe('JSONSerializable', () => {
   test('object with toJSON method', () => {
     const obj = {
       toJSON() {
@@ -43,12 +43,12 @@ describe('Jsonable', () => {
       }
     }
 
-    expectType<Jsonable<number>>(obj)
+    expectType<JSONSerializable<number>>(obj)
   })
 
   test('object without toJSON method', () => {
     const obj = {}
 
-    expectNotType<Jsonable<number>>(obj)
+    expectNotType<JSONSerializable<number>>(obj)
   })
 })

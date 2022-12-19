@@ -1,19 +1,19 @@
 // The return type of `JSON.parse`
-export type Json =
+export type JSONValue =
 | string
 | number
 | boolean
 | null
-| { [property: string]: Json }
-| Json[]
+| { [property: string]: JSONValue }
+| JSONValue[]
 
 /**
- * 可以生成JSON的非JSON对象
+ * 可以序列化为JSON的非JSONValue对象
  */
-export interface Jsonable< T extends
-| Json
-| Record<string, Json | Jsonable<any>>
-| Array<Json | Jsonable<any>>
+export interface JSONSerializable<T extends
+| JSONValue
+| Record<string, JSONValue | JSONSerializable<any>>
+| Array<JSONValue | JSONSerializable<any>>
 > {
   toJSON(key: string): T
 }
