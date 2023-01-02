@@ -19,6 +19,7 @@ yarn add justypes
 - Cons
 - Constructor
 - Dictionary
+- FixedLengthArray
 - Falsy
 - Getter
 - JSONValue
