@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/BlackGlory/justypes/compare/v4.0.0...v4.1.0) (2023-01-02)
+
+
+### Features
+
+* add `FixedLengthArray` ([b017d3f](https://github.com/BlackGlory/justypes/commit/b017d3f8881232c8916edf552a2db7f1c7310479))
+
 ## [4.0.0](https://github.com/BlackGlory/justypes/compare/v3.1.2...v4.0.0) (2022-12-19)
 
 
