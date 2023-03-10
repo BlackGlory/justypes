@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/BlackGlory/justypes/compare/v4.1.0...v4.2.0) (2023-03-10)
+
+
+### Features
+
+* add `JSONObject` ([25d301e](https://github.com/BlackGlory/justypes/commit/25d301e671cd0f3bec0897917910aa2c36eb48df))
+
 ## [4.1.0](https://github.com/BlackGlory/justypes/compare/v4.0.0...v4.1.0) (2023-01-02)
 
 
