@@ -4,8 +4,12 @@ export type JSONValue =
 | number
 | boolean
 | null
-| { [property: string]: JSONValue }
+| JSONObject
 | JSONValue[]
+
+export interface JSONObject {
+  [property: string]: JSONValue
+}
 
 /**
  * 可以序列化为JSON的非JSONValue对象

@@ -1,5 +1,6 @@
 import { expectType, expectNotType } from 'tsd'
-import { JSONValue, JSONSerializable } from '@src/json'
+import { assertType, Extends } from './utils'
+import { JSONValue, JSONObject, JSONSerializable } from '@src/json'
 
 describe('JSONValue', () => {
   test('string is JSONValue', () => {
@@ -19,7 +20,23 @@ describe('JSONValue', () => {
   })
 
   test('object is JSONValue', () => {
-    expectType<JSONValue>({})
+    expectType<JSONValue>({ key: 'value' })
+  })
+
+  test('interface is JSONValue', () => {
+    interface Interface extends JSONObject {
+      key: string
+    }
+
+    assertType<Extends<Interface, JSONValue>>()
+  })
+
+  test('type is JSONValue', () => {
+    type Type = {
+      key: string
+    }
+
+    assertType<Extends<Type, JSONValue>>()
   })
 
   test('undefined isnt JSONValue', () => {
@@ -32,6 +49,24 @@ describe('JSONValue', () => {
 
   test('Set isnt JSONValue', () => {
     expectNotType<JSONValue>(new Set())
+  })
+})
+
+describe('JSONObject', () => {
+  test('interface is JSONObject', () => {
+    interface Interface extends JSONObject {
+      key: string
+    }
+
+    assertType<Extends<Interface, JSONObject>>()
+  })
+
+  test('type is JSONValue', () => {
+    type Type = {
+      key: string
+    }
+
+    assertType<Extends<Type, JSONObject>>()
   })
 })
 

@@ -23,6 +23,7 @@ yarn add justypes
 - Falsy
 - Getter
 - JSONValue
+- JSONObject
 - JSONSerializable
 - NonEmptyArray
 - Nullish
