@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.1](https://github.com/BlackGlory/justypes/compare/v4.2.0...v4.2.1) (2023-06-11)
+
+
+### Bug Fixes
+
+* export src ([60c81a9](https://github.com/BlackGlory/justypes/commit/60c81a909767aed7c6f1c2ebb5cca31003ab51f3))
+
 ## [4.2.0](https://github.com/BlackGlory/justypes/compare/v4.1.0...v4.2.0) (2023-03-10)
 
 
