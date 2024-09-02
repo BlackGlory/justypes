@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.3.0](https://github.com/BlackGlory/justypes/compare/v4.2.1...v4.3.0) (2024-09-02)
+
+
+### Features
+
+* add `Matrix` ([9b62d87](https://github.com/BlackGlory/justypes/commit/9b62d87134f3dba5ae6b401fa0d42cc4c3d03282))
+
 ### [4.2.1](https://github.com/BlackGlory/justypes/compare/v4.2.0...v4.2.1) (2023-06-11)
 
 
