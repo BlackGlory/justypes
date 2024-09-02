@@ -20,6 +20,7 @@ yarn add justypes
 - Constructor
 - Dictionary
 - FixedLengthArray
+- Matrix
 - Falsy
 - Getter
 - JSONValue
