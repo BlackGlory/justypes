@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.4.1](https://github.com/BlackGlory/justypes/compare/v4.4.0...v4.4.1) (2024-10-30)
+
+
+### Bug Fixes
+
+* export `EmptyObject` ([70a35dc](https://github.com/BlackGlory/justypes/commit/70a35dc88dab70d669e9f2d1e20d0cf1311fad5f))
+
 ## [4.4.0](https://github.com/BlackGlory/justypes/compare/v4.3.0...v4.4.0) (2024-10-30)
 
 
