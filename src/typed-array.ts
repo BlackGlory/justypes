@@ -15,33 +15,33 @@ export type UnsignedTypedArrayConstructor =
 | Uint16ArrayConstructor
 | Uint32ArrayConstructor
 
-export type TypedArray =
-| SignedTypedArray
-| UnsignedTypedArray
+export type TypedArray<TArrayBuffer extends ArrayBufferLike = ArrayBufferLike> =
+| SignedTypedArray<TArrayBuffer>
+| UnsignedTypedArray<TArrayBuffer>
 
-export type SignedTypedArray =
-| Int8Array
-| Int16Array
-| Int32Array
-| Float32Array
-| Float64Array
+export type SignedTypedArray<TArrayBuffer extends ArrayBufferLike = ArrayBufferLike> =
+| Int8Array<TArrayBuffer>
+| Int16Array<TArrayBuffer>
+| Int32Array<TArrayBuffer>
+| Float32Array<TArrayBuffer>
+| Float64Array<TArrayBuffer>
 
-export type UnsignedTypedArray =
-| Uint8Array
-| Uint8ClampedArray
-| Uint16Array
-| Uint32Array
+export type UnsignedTypedArray<TArrayBuffer extends ArrayBufferLike = ArrayBufferLike> =
+| Uint8Array<TArrayBuffer>
+| Uint8ClampedArray<TArrayBuffer>
+| Uint16Array<TArrayBuffer>
+| Uint32Array<TArrayBuffer>
 
-export type TypedArrayOfConstructor<T extends TypedArrayConstructor> =
-  T extends Int8ArrayConstructor ? Int8Array
-: T extends Uint8ArrayConstructor ? Uint8Array
-: T extends Uint8ClampedArrayConstructor ? Uint8ClampedArray
-: T extends Int16ArrayConstructor ? Int16Array
-: T extends Uint16ArrayConstructor ? Uint16Array
-: T extends Int32ArrayConstructor ? Int32Array
-: T extends Uint32ArrayConstructor ? Uint32Array
-: T extends Float32ArrayConstructor ? Float32Array
-: T extends Float64ArrayConstructor ? Float64Array
+export type TypedArrayOfConstructor<T extends TypedArrayConstructor, TArrayBuffer extends ArrayBufferLike = ArrayBufferLike> =
+  T extends Int8ArrayConstructor ? Int8Array<TArrayBuffer>
+: T extends Uint8ArrayConstructor ? Uint8Array<TArrayBuffer>
+: T extends Uint8ClampedArrayConstructor ? Uint8ClampedArray<TArrayBuffer>
+: T extends Int16ArrayConstructor ? Int16Array<TArrayBuffer>
+: T extends Uint16ArrayConstructor ? Uint16Array<TArrayBuffer>
+: T extends Int32ArrayConstructor ? Int32Array<TArrayBuffer>
+: T extends Uint32ArrayConstructor ? Uint32Array<TArrayBuffer>
+: T extends Float32ArrayConstructor ? Float32Array<TArrayBuffer>
+: T extends Float64ArrayConstructor ? Float64Array<TArrayBuffer>
 : never
 
 export type ConstructorOfTypedArray<T extends TypedArray> =

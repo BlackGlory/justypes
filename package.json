@@ -52,6 +52,6 @@
     "tscpaths": "^0.0.9",
     "tsd": "^0.25.0",
     "tslib": "^2.4.1",
-    "typescript": "^4.7.4"
+    "typescript": "^5.9.3"
   }
 }
